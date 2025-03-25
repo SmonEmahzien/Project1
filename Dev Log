@@ -1,0 +1,68 @@
+Development Log
+Project: Encryption and Logger System
+Developer: Smon Emahazien
+Date Started: 03/04/2025
+Date Completed: 03/24/2025
+
+
+ Project Planning and Setup (March 4 , 2025)
+
+
+Read the project description,Decided to split the project into three main components: Logger, Encryption, and Driver.
+Created separate Python files for each program: logger.py, encryption.py, and driver.py.
+Set up the project directory.
+
+
+ Implementing the Logger Program (March 4-10, 2025)
+ Build the Logger program to write log entries.
+
+I created the message function to write the timestamp, action and message.
+Implemented a main loop in logger so that we can keep on reading input until we recive quir
+
+Implemented the main loop in the Logger to keep reading input from stdin until "QUIT" is received.
+
+
+
+Encryption Program Development (March 10-20, 2025)
+Implement the encryption and decryption functions.
+
+
+
+Researched the Vigenère cipher,Built the basic structure so that we can do these comands: PASS, ENCRYPT, DECRYPT, and QUIT.
+
+The program now encrypts and decrypts strings using the passkey.
+
+I tested the program with different commands to ensure they have the correct outputs
+
+
+
+Build the Driver program and connect it to both Logger and Encryption programs.
+
+ Driver Program Setup and Process Communication (March 20-22, 2025)
+ created the Driver program to control both Logger and Encryption programs .
+
+
+Created the Driver program and set it up to launch the Logger and Encryption program.
+Added a menu like system that will acccept specefic commands: password, encrypt, decrypt, history, quit
+
+
+
+
+ Finalizing the Driver and Testing (March 23, 2025)
+ Complete the Driver program .
+
+
+Added a history tracker that keeps track of previously entered strings.
+I also added a error checking system that ensures that the user does not input invalild inputs.
+
+I also tested the interactions between the Driver, Logger, and Encryption programs.
+
+ Documentation and Code Review (March 24, 2025)
+Created the documentation for the project and review the code for improvements.
+
+
+
+Wrote the README file, explained how the project works and how to run the program
+
+cleaned up the code and ensured that it is commented.
+

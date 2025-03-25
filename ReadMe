@@ -1,0 +1,17 @@
+Overview
+In this project I implment an encryption system that interacts through the driver program
+This program contains a logger program, encryption program, and the driver program
+
+Logger program : Logs the activity in a specific format
+Encyrption program :  encrypt and decrypt strings
+Driver program : the main interface, where  user can interact with logger and encryption
+
+To run the project execute this line in the terminal:
+python3 driver.py logfile.txt
+
+User Commands
+Password: Allows you to enter a new passkey or pick a preveisly used string.
+Encrypt: Encrypt the strings by using the passkey
+Decrypt: Decrypt the string by using the passkey
+history: stores the strings
+quit: termintates the system
